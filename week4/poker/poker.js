@@ -25,11 +25,8 @@ window.getDeck = function() {
   });
   return cards;
 }
-
+// pretty stuck on this one....
 $(".deal").on("click", function() {
-  window.getElementById("#c1").innerHTML = ranks + "_of_" + cards;
-  window.getElementById("#c2").innerHTML = ranks + "_of_" + cards;
-  window.getElementById("#c3").innerHTML = ranks + "_of_" + cards;
-  window.getElementById("#c4").innerHTML = ranks + "_of_" + cards;
-  window.getElementById("#c5").innerHTML = ranks + "_of_" + cards;  
+  event.preventDefault()
+  var c1 = cards.shuffle();
 })
