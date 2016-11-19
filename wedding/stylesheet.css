@@ -1,5 +1,10 @@
-.navbar-brand {
+body {
+  font-weight: 300;
   font-family: 'Carrois Gothic SC', sans-serif;
+  color: black;
+}
+
+.navbar-brand {
   color: black;
   font-size: 36px;
   padding-top: 20px;
@@ -9,27 +14,6 @@
   padding-right: 50px;
 }
 
-body {
-  font-weight: 300;
-  font-family: 'Carrois Gothic SC', sans-serif;
-  color: black;
-}
-
-/*Didn't need many id-specific CSS's so created for sake of assignment*/
-#welcomeimage{
-  display: block;
-  margin: auto;
-  width:20%;
-  height: auto;
-}
-
-footer {
-  font-weight: 300;
-  text-align:center;
-  font-family: 'Carrois Gothic SC', sans-serif;
-  color: grey;
-}
-
 .container {
   color: white;
   background: url(ParkerScenic.jpg) no-repeat;
@@ -37,17 +21,22 @@ footer {
   padding-bottom: 100px;
 }
 
+.jumbotron{
+  min-height: 438px;
+}
+
+
 .container2 {
   color: black;
   background-color: white;
 }
 
-.Introduction {
-  padding-top: 100px;
-  text-align: center;
-  font-size: 50px;
+#welcomeimage{
+  display: block;
+  margin: auto;
+  width:20%;
+  height: auto;
 }
-
 
 hr{
 	width: 40%;
@@ -61,4 +50,52 @@ p{
   font-size: 16px;
   padding-top: 20px
   text-align: center;
+}
+
+footer {
+  font-weight: 300;
+  text-align:center;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  color: black;
+  background-color:white;
+}
+
+.Introduction {
+  color: white;
+  padding-top: 100px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.tabtitle {
+  color: white;
+  top: 50%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.tabtitle.travel {
+  color: white;
+}
+
+.tabtitle.weekendevents {
+  color: white;
+}
+
+.tabtitle.thingstodo {
+  color: white;
+}
+
+.tabtitle.registry {
+  color: white;
+}
+
+
+table{
+  border-style: hidden;
+}
+
+td{
+  text-align: center;
+  border-style: hidden;
 }
