@@ -44,6 +44,7 @@ hr{
 
 h1 {
   padding-top: 100px;
+  font-size: 50px;
 }
 
 p{
@@ -69,7 +70,7 @@ footer {
 
 .tabtitle {
   color: white;
-  top: 50%;
+  padding-top: 150px;
   text-align: center;
   font-size: 50px;
 }
